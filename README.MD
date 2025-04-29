@@ -15,6 +15,19 @@ Esta é uma API Node.js construída com Express para envio de mensagens de texto
 - **Axios**: Cliente HTTP para chamadas à API externa.
 - **Dotenv**: Gerenciamento de variáveis de ambiente.
 
+## Sobre a w-api
+- Plataforma: [w-api.app](https://w-api.app/)
+- Custo: R$ 29,90 mensal
+- Permite integração com WhatsApp via API REST
+
+### Como configurar a w-api
+1. Acesse [w-api.app](https://w-api.app/) e crie uma conta
+2. Após o cadastro, crie uma nova instância
+3. Conecte sua instância com WhatsApp através do QR Code
+4. Obtenha as credenciais necessárias:
+   - **INSTANCE_ID**: ID da sua instância
+   - **API_KEY**: Token Bearer para autenticação (encontrado nas configurações da instância)
+
 ## Pré-requisitos
 - Conta na plataforma `w-api` para obter `INSTANCE_ID` e `API_KEY`.
 - Bearer Token para autenticação (fornecido manualmente).
@@ -35,7 +48,7 @@ Esta é uma API Node.js construída com Express para envio de mensagens de texto
    ```env
    PORT=3000
    INSTANCE_ID=<SEU_INSTANCE_ID>
-   API_KEY=<SEU_API_KEY>
+   API_KEY=<SEU_API_KEY> # Token Bearer obtido nas configurações da instância
    ```
 
 4. Inicie o servidor:
