@@ -22,8 +22,8 @@ Esta é uma API Node.js construída com Express para envio de mensagens de texto
 ## Instalação
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
+   git clone https://github.com/JvitorAfb2004/api-whatsapp-w-api
+   cd api-whatsapp-w-api
    ```
 
 2. Instale as dependências:
